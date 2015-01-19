@@ -8,6 +8,6 @@ class LibraryTest extends PHPUnit_Framework_TestCase
   {
     $example = new Library;
 
-    $this->assertEquals($example->whatAmI(), 'an example');
+    $this->assertEquals($example->whatAmI(), 'travis is up and running');
   }
 }
